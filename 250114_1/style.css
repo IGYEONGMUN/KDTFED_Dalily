@@ -1,6 +1,10 @@
 @import url(./styles/reset.css);
 @import url(./styles/variables.css);
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
-h1 {
-  font-family: var(--orbitron-font-style);
+
+body {
+  font: normal 16px/1.4 var(--orbitron-font-style);
+  letter-spacing: 1px;
+  background: var(--main-dark-color);
+  color: var(--main-font-color);
 }
